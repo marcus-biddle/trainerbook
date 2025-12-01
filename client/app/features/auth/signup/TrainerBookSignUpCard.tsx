@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import type { SignUpFormErrors, SignUpFormValues, TrainerBookRole } from '../auth.types';
 import { RoleSelector } from './RoleSelector/RoleSelector';
-import { PrimaryButton } from '../ui/PrimaryButton';
+import { PrimaryButton } from '../../ui/PrimaryButton';
 import { EmailField, NameField, PasswordField, TrainerInviteField } from './fields';
 
 const initialValues: SignUpFormValues = {

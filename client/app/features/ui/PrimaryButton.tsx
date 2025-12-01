@@ -1,4 +1,4 @@
-import type { PrimaryButtonProps } from "../auth.types";
+import type { PrimaryButtonProps } from "../auth/auth.types";
 
 export const PrimaryButton: React.FC<PrimaryButtonProps> = ({
   children,

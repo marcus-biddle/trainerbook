@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import type { LoginFormErrors, LoginFormValues } from '../auth.types';
 import { EmailField, PasswordField } from '../signup/fields';
-import { PrimaryButton } from '../ui/PrimaryButton';
+import { PrimaryButton } from '../../ui/PrimaryButton';
 
 const initialValues: LoginFormValues = {
   email: '',

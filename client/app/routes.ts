@@ -3,6 +3,7 @@ import {
   index,
   route,
   layout,
+  prefix,
 } from "@react-router/dev/routes";
  
 export default [
@@ -13,6 +14,11 @@ export default [
   route("login", "features/auth/login/TrainerBookLoginPage.tsx"),
   route("signup", "features/auth/signup/TrainerBookSignUpPage.tsx"),
 
+  // trainer routes
+//   route("trainer", "routes/trainer.dashboard.tsx"),
+  route("trainer", "routes/trainer.dashboard.tsx", [
+    index("routes/trainer.home.tsx")
+  ])
   // Simple top-level pages
 //   route("trainer", "routes/trainer.tsx"),
 //   route("client", "routes/client.tsx"),
